@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import axios from "axios";
 import Card from './Card.js';
-import '../styles/App.css';
+import '../styles/App.scss';
 
-const WINE_DATA_URL = 'src/data/json/singular-wine.json';
+const WINE_DATA_URL = 'http://localhost:3001/wine';
 
 const CardList = (props) => (
   <div className="wine-cards">
-    {props.wines.map(wine => <Card key={wine.id} />)}
+    {props.wines.map(wine => <Card key={wine.id} product={wine}/>)}
   </div>
 );
 
@@ -15,11 +15,11 @@ function App() {
   const [data, setData] = useState({wines: [], isFetching: false});
 
   useEffect(() => {
-    /*
     const fetchWinesAxios = async () => {
       try {
         setData({wines: data.wines, isFetching: true});
         const response = await axios.get(WINE_DATA_URL);
+        console.log(response.data);
         setData({wines: response.data, isFetching: false});
       } catch (e) {
         console.log(e);
@@ -27,7 +27,8 @@ function App() {
       }
     };
     fetchWinesAxios();
-    */
+    
+    /*
     const fetchWines = async () => {
       try {
         setData({wines: data.wines, isFetching: true});
@@ -44,6 +45,22 @@ function App() {
       }
     };
     fetchWines();
+    */
+    
+    /*
+    const fetchLocalWine = () => {
+      try {
+        setData({wines: data.wines, isFetching: true});
+        const jsonData = require('../data/json/singular-wine.json');
+        console.log(jsonData);
+        setData({wines: jsonData, isFetching: false});
+      } catch (e) {
+        console.log(e);
+        setData({wines: data.wines, isFetching: false});
+      }
+    };
+    fetchLocalWine();
+    */
   }, []);
 
   return (

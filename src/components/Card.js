@@ -1,10 +1,19 @@
 import React from 'react';
 import '../styles/App.css';
 
-function Card() {
+function Card(props) {
     return (
-        <div className="wine-card">
-            <p>This is a card</p>
+        <div className="product-card">
+            <div className="product-image">
+
+            </div>
+            <div className="product-info">
+
+            </div>
+            <div className="product-price">
+                
+            </div>
+            <p>This is card with product {props.product.id}</p>
         </div>
     );
 }
