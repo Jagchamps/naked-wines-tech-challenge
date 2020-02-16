@@ -1,14 +1,44 @@
 import React, { useEffect, useState } from 'react';
 import axios from "axios";
 import Card from './Card.js';
+import { Grid, Container } from '@material-ui/core';
+//import Container from 'react-bootstrap/Container';
+//import Row from 'react-bootstrap/Row';
+//import Col from 'react-bootstrap/Col';
 import '../styles/App.scss';
 
 const WINE_DATA_URL = 'http://localhost:3001/wine';
 
+// const CardList = (props) => (
+//   <section className="products">
+//     <Grid 
+//       container 
+//       alignItems="stretch"
+//       alignContent="flex-start" 
+//       flexGrow={1}
+//       spacing={3}>
+//       {props.wines.map(wine => 
+//         <Grid 
+//           item xs={12} 
+//           sm={6} 
+//           md={4}>
+//           <Card 
+//             key={wine.id} 
+//             product={wine}/>
+//         </Grid>
+//       )}
+//     </Grid>
+//   </section>
+// );
+
 const CardList = (props) => (
-  <div className="wine-cards">
-    {props.wines.map(wine => <Card key={wine.id} product={wine}/>)}
-  </div>
+  <section className="products">
+      {props.wines.map(wine => 
+          <Card 
+            key={wine.id} 
+            product={wine}/>
+      )}
+  </section>
 );
 
 function App() {
@@ -27,52 +57,20 @@ function App() {
       }
     };
     fetchWinesAxios();
-    
-    /*
-    const fetchWines = async () => {
-      try {
-        setData({wines: data.wines, isFetching: true});
-        const response = await fetch(WINE_DATA_URL, {mode: 'no-cors'});
-        console.log(response);
-        const test_text = await response.text();
-        console.log(test_text);
-        const json = await response.json();
-        console.log(json);
-        setData({wines: json, isFetching: false});
-      } catch (e) {
-        console.log(e);
-        setData({wines: data.wines, isFetching: false});
-      }
-    };
-    fetchWines();
-    */
-    
-    /*
-    const fetchLocalWine = () => {
-      try {
-        setData({wines: data.wines, isFetching: true});
-        const jsonData = require('../data/json/singular-wine.json');
-        console.log(jsonData);
-        setData({wines: jsonData, isFetching: false});
-      } catch (e) {
-        console.log(e);
-        setData({wines: data.wines, isFetching: false});
-      }
-    };
-    fetchLocalWine();
-    */
   }, []);
 
   return (
     <div className="App">
-      <header className="App-header">
-      </header>
-      <div className="App-body">
-        <CardList 
-          wines={data.wines}
-          isFetching={data.isFetching}
-        />
+      <div className="App-header">
       </div>
+      <main className="main-section" role="main">
+        <div className="App-body">
+          <CardList 
+            wines={data.wines}
+            isFetching={data.isFetching}
+          />
+        </div>
+      </main>
     </div>
   );
 }
