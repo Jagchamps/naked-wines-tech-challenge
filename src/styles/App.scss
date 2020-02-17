@@ -1,0 +1,46 @@
+@import "./Variables.scss";
+@import "./Navbar.scss";
+@import "./Body.scss";
+@import "./Card.scss";
+
+html {
+  box-sizing: border-box;
+  font-family: $roboto;
+}
+
+.App {
+  // @media screen and (max-width: $bp-small) {
+  //   height: 100%;
+  //   overflow: auto;
+  //   overflow-x: hidden;
+  // }
+  // padding: 1rem;
+  // box-sizing: border-box;
+}
+
+.main-section {
+  @media screen and (max-width: $bp-small) {
+    height: 100%;
+    overflow: auto;
+    overflow-x: hidden;
+    padding: 1rem;
+  }
+  @media screen and (min-width: $bp-xlarge) {
+    width: $bp-xlarge;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.App-body {
+  height: 100%;
+  width: 100%;
+}
+
+.products {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: stretch;
+  align-content: flex-start;
+}

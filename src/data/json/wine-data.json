@@ -1,48 +1,596 @@
 {
-    "wines" : [{
-        "name" : "Test Red Wine",
-        "maker" : "Jon Hopkins",
-        "country" : {
-            "name" : "Australia",
-            "flag" : ""
+    "wines": [
+        {
+            "id": 22502,
+            "productName": "Camille Cayran Le Chene Noir 2017",
+            "urlString": "le-chene-noir-2017",
+            "vintage": "2017",
+            "averageRating": 4.7,
+            "productFamily": {
+                "allRatings": 219
+            },
+            "vegan": false,
+            "vegetarian": true,
+            "productTypeDesc": "Bottle",
+            "fairtrade": false,
+            "organic": false,
+            "origin": "France",
+            "region": "Rhone",
+            "producer": {
+                "firstName": "Denis",
+                "lastName": "Heno"
+            },
+            "wineGrape": "Grenache Blend",
+            "alcoholStrength": "14.50",
+            "tastingNotes": "Dark ruby in color, with a dark purple rim that shows its youth. A nose of pronounced fresh red fruits (strawberriers, rapsberries, red-currants) and bright perfumeof black cherry. When swirled, jammy notes develop.\r\nConcentrated, juicy and fresh succulent tanins. Keypoint ; made upon totally ripe, handpicked and selected fruit.\r\n",
+            "status": "A",
+            "type": "red",
+            "lowStock": false,
+            "price": "£12.99",
+            "productQuantity": 1,
+            "markedOutOfStock": false,
+            "_links": {
+                "self": {
+                    "href": "/v1/products/22502"
+                }
+            }
         },
-        "region" : "",
-        "style" : {
-            "type" : "",
-            "name" : "",
-            "grape" : "",
-            "profile" : ""
+        {
+            "id": 21729,
+            "productName": "Van Dijk Distinction Sauvignon Blanc 2017",
+            "urlString": "van-dijk-distinction-sauvignon-blanc-2017",
+            "vintage": "2017",
+            "averageRating": 4.61,
+            "productFamily": {
+                "allRatings": 2278
+            },
+            "vegan": false,
+            "vegetarian": true,
+            "productTypeDesc": "Bottle",
+            "fairtrade": false,
+            "organic": false,
+            "origin": "France",
+            "region": "Loire Valley",
+            "producer": {
+                "firstName": "Joost & Miguela",
+                "lastName": "Van Dijk"
+            },
+            "wineGrape": "Sauvignon blanc",
+            "alcoholStrength": "12.50",
+            "tastingNotes": "/",
+            "status": "A",
+            "type": "white",
+            "lowStock": false,
+            "price": "£12.99",
+            "productQuantity": 1,
+            "markedOutOfStock": true,
+            "_links": {
+                "self": {
+                    "href": "/v1/products/21729"
+                }
+            }
         },
-        "description" : "",
-        "rating" : "",
-        "price" : "",
-        "stock" : "",
-        "awards" : [{
-            "name" : "",
-            "icon" : ""
-        }]
-    },
-    {
-        "name" : "",
-        "maker" : "",
-        "country" : {
-            "name" : "",
-            "flag" : ""
+        {
+            "id": 1979,
+            "productName": "Henry's Sparkling Wine",
+            "urlString": "henrys-sparkling-wine",
+            "vintage": "2011",
+            "averageRating": 0.0,
+            "productFamily": {
+                "allRatings": 0
+            },
+            "vegan": null,
+            "vegetarian": null,
+            "productTypeDesc": "Bottle",
+            "fairtrade": null,
+            "organic": null,
+            "origin": "UK",
+            "region": "Bedfordshire",
+            "producer": {
+                "firstName": "Henry",
+                "lastName": "Cavill"
+            },
+            "wineGrape": "Other White Grapes",
+            "alcoholStrength": "12.00",
+            "tastingNotes": "",
+            "status": "A",
+            "type": "sparkling",
+            "lowStock": false,
+            "price": "£12.99",
+            "productQuantity": 1,
+            "markedOutOfStock": false,
+            "_links": {
+                "self": {
+                    "href": "/v1/products/1979"
+                }
+            }
         },
-        "region" : "",
-        "style" : {
-            "type" : "",
-            "name" : "",
-            "grape" : "",
-            "profile" : ""
+        {
+            "id": 21123,
+            "productName": "Reserve De Pierre 2016",
+            "urlString": "reserve-de-pierre-2016",
+            "vintage": "2016",
+            "averageRating": 4.44,
+            "productFamily": {
+                "allRatings": 13275
+            },
+            "vegan": null,
+            "vegetarian": null,
+            "productTypeDesc": "Bottle",
+            "fairtrade": null,
+            "organic": null,
+            "origin": "France",
+            "region": "Rhone",
+            "producer": {
+                "firstName": "Pierre",
+                "lastName": "Bisset"
+            },
+            "wineGrape": "Grenache Blend",
+            "alcoholStrength": "14.00",
+            "tastingNotes": "A bright dark wine shot through with highlights. The noticeable red fruit in the nose is accompanied by aromas of cinnamon and spice. The mouth is full of jammy red fruit (strawberry), rounded and well-balanced and finishes on notes of spice (vanilla, pepper).\r\nThe youthful tannins mean it will last quite a while.",
+            "status": "A",
+            "type": "red",
+            "lowStock": false,
+            "price": "£12.99",
+            "productQuantity": 1,
+            "markedOutOfStock": false,
+            "_links": {
+                "self": {
+                    "href": "/v1/products/21123"
+                }
+            }
         },
-        "description" : "",
-        "rating" : "",
-        "price" : "",
-        "stock" : "",
-        "awards" : [{
-            "name" : "",
-            "icon" : ""
-        }]
-    }]
+        {
+            "id": 22235,
+            "productName": "Reserve De Pierre 2017",
+            "urlString": "reserve-de-pierre-2017",
+            "vintage": "2017",
+            "averageRating": 4.48,
+            "productFamily": {
+                "allRatings": 13275
+            },
+            "vegan": null,
+            "vegetarian": null,
+            "productTypeDesc": "Bottle",
+            "fairtrade": null,
+            "organic": null,
+            "origin": "France",
+            "region": "Rhone",
+            "producer": {
+                "firstName": "Pierre",
+                "lastName": "Bisset"
+            },
+            "wineGrape": "Grenache Blend",
+            "alcoholStrength": "14.00",
+            "tastingNotes": "A bright dark wine shot through with highlights. The noticeable red fruit in the nose is accompanied by aromas of cinnamon and spice. The mouth is full of jammy red fruit (strawberry), rounded and well-balanced and finishes on notes of spice (vanilla, pepper). The youthful tannins mean it will last quite a while.",
+            "status": "A",
+            "type": "red",
+            "lowStock": false,
+            "price": "£12.99",
+            "productQuantity": 1,
+            "markedOutOfStock": false,
+            "_links": {
+                "self": {
+                    "href": "/v1/products/22235"
+                }
+            }
+        },
+        {
+            "id": 22640,
+            "productName": "La Sousto Chateauneuf du Pape 2015",
+            "urlString": "la-sousto-chateauneuf-du-pape-2015",
+            "vintage": "2015",
+            "averageRating": 4.2,
+            "productFamily": {
+                "allRatings": 10
+            },
+            "vegan": false,
+            "vegetarian": false,
+            "productTypeDesc": "Bottle",
+            "fairtrade": false,
+            "organic": false,
+            "origin": "France",
+            "region": "Rhone",
+            "producer": {
+                "firstName": "Frederic",
+                "lastName": "Chevrolet"
+            },
+            "wineGrape": "Grenache Blend",
+            "alcoholStrength": "14.50",
+            "tastingNotes": "Solid, with a bodied and fresh style, as well as floral and darker berry fruits. Fine, tight tannin and good length.",
+            "status": "A",
+            "type": "white",
+            "lowStock": false,
+            "price": "£12.99",
+            "productQuantity": 1,
+            "markedOutOfStock": false,
+            "_links": {
+                "self": {
+                    "href": "/v1/products/22640"
+                }
+            }
+        },
+        {
+            "id": 22326,
+            "productName": "Carmen Jones Angels Selection Chenin Blanc 2018",
+            "urlString": "carmen-jones-angels-selection-chenin-blanc-2018",
+            "vintage": "2018",
+            "averageRating": 4.39,
+            "productFamily": {
+                "allRatings": 39145
+            },
+            "vegan": false,
+            "vegetarian": true,
+            "productTypeDesc": "Bottle",
+            "fairtrade": false,
+            "organic": false,
+            "origin": "South Africa",
+            "region": "Western Cape",
+            "producer": {
+                "firstName": "Carmen",
+                "lastName": "Jones"
+            },
+            "wineGrape": "Chenin blanc",
+            "alcoholStrength": "12.50",
+            "tastingNotes": "This is a clean refreshing unoaked style of Chenin Blanc. The lightness of colour is indicative of an early picking. A lime fresh nuances greets you, this flows to baked apple and pear expression. Palate entrance is a mixture of lime and salt/ minerality flavours followed by the baked fruit that fills the palate.  The weight of this wines makes it inviting and very flowy on palate. The length of the wine is enhanced by the salty impression that the wine leaves on the palate. A beautiful wine with lots of finesse. A well balanced wine showing all the attributes of a well-made Chenin Blanc. ",
+            "status": "A",
+            "type": "white",
+            "lowStock": true,
+            "productQuantity": 1,
+            "markedOutOfStock": false,
+            "_links": {
+                "self": {
+                    "href": "/v1/products/22326"
+                }
+            }
+        },
+        {
+            "id": 21742,
+            "productName": "Jen D'Angelo The Rebel Shiraz 2017",
+            "urlString": "jen-d-angelo-the-rebel-shiraz-2017",
+            "vintage": "2017",
+            "averageRating": 4.63,
+            "productFamily": {
+                "allRatings": 10939
+            },
+            "vegan": false,
+            "vegetarian": true,
+            "productTypeDesc": "Bottle",
+            "fairtrade": false,
+            "organic": false,
+            "origin": "Australia",
+            "region": "South Eastern Australia",
+            "producer": {
+                "firstName": "Jen",
+                "lastName": "D'Angelo"
+            },
+            "wineGrape": "Syrah | Shiraz",
+            "alcoholStrength": "14.00",
+            "tastingNotes": "My Rebel Shiraz has a lovely purple red colour.  \r\nThe nose exhibits lovely red berry and plummy fruit, with lovely spicy overtones.  \r\nThe palate is simply a mouthful of flavour!!!  Ripe and generous berry fruit fill the mid-palate, with a lovely savoury, spicy tannin finish.  This wine is super more-ish!!!  \r\n",
+            "status": "A",
+            "type": "red",
+            "lowStock": false,
+            "price": "£12.99",
+            "productQuantity": 1,
+            "markedOutOfStock": false,
+            "_links": {
+                "self": {
+                    "href": "/v1/products/21742"
+                }
+            }
+        },
+        {
+            "id": 21484,
+            "productName": "Marcelo Romano Gran Malbec 2017",
+            "urlString": "marcelo-romano-gran-malbec-2017",
+            "vintage": "2017",
+            "averageRating": 4.69,
+            "productFamily": {
+                "allRatings": 1001
+            },
+            "vegan": false,
+            "vegetarian": true,
+            "productTypeDesc": "Bottle",
+            "fairtrade": false,
+            "organic": false,
+            "origin": "Argentina",
+            "region": "Mendoza",
+            "producer": {
+                "firstName": "Marcelo",
+                "lastName": "Romano"
+            },
+            "wineGrape": "Malbec",
+            "alcoholStrength": "13.50",
+            "tastingNotes": "Bright red color with purple hues. Enticing aromas of red fruit, cherries and plum. Medium bodied with a velvety texture and a long, persistent finish, revealing its full potential. Ideal to pair with a Juicy Ribeye or any kind of beef. \r\n",
+            "status": "A",
+            "type": "red",
+            "lowStock": false,
+            "price": "£12.99",
+            "productQuantity": 1,
+            "markedOutOfStock": false,
+            "_links": {
+                "self": {
+                    "href": "/v1/products/21484"
+                }
+            }
+        },
+        {
+            "id": 22359,
+            "productName": "Carlos Fernandez Aba Solleira Mencia 2017",
+            "urlString": "carlos-fernandez-aba-solleira-mencia-2017",
+            "vintage": "2017",
+            "averageRating": 4.31,
+            "productFamily": {
+                "allRatings": 54
+            },
+            "vegan": null,
+            "vegetarian": null,
+            "productTypeDesc": "Bottle",
+            "fairtrade": null,
+            "organic": null,
+            "origin": "Spain",
+            "region": "Ribeira Sacra",
+            "producer": {
+                "firstName": "Carlos",
+                "lastName": "Fernandez"
+            },
+            "wineGrape": "Mencia",
+            "alcoholStrength": "12.50",
+            "tastingNotes": "",
+            "status": "A",
+            "type": "rose",
+            "lowStock": false,
+            "price": "£12.99",
+            "productQuantity": 1,
+            "markedOutOfStock": false,
+            "_links": {
+                "self": {
+                    "href": "/v1/products/22359"
+                }
+            }
+        },
+        {
+            "id": 21887,
+            "productName": "Adam Stone Muscat de Stone 2017",
+            "urlString": "adam-stone-muscat-de-frontignan-2017",
+            "vintage": "2017",
+            "averageRating": 4.4,
+            "productFamily": {
+                "allRatings": 214
+            },
+            "vegan": true,
+            "vegetarian": true,
+            "productTypeDesc": "Bottle",
+            "fairtrade": false,
+            "organic": false,
+            "origin": "South Africa",
+            "region": "Swartland",
+            "producer": {
+                "firstName": "Adam",
+                "lastName": "Stone"
+            },
+            "wineGrape": "Muscat",
+            "alcoholStrength": "13.00",
+            "tastingNotes": "THis is a typical expression of Muscat. It has lovely ripe tropcial aromas of dried mango, and pineapple together with some delicate floral notes. The rich palate is viscous and retains a beautiful long finish.",
+            "status": "A",
+            "type": "rose",
+            "lowStock": true,
+            "productQuantity": 1,
+            "markedOutOfStock": false,
+            "_links": {
+                "self": {
+                    "href": "/v1/products/21887"
+                }
+            }
+        },
+        {
+            "id": 22158,
+            "productName": "Dom Clement Hillside Pinot Gris 2018",
+            "urlString": "dom-clement-hillside-pinot-gris-2018",
+            "vintage": "2018",
+            "averageRating": 4.73,
+            "productFamily": {
+                "allRatings": 271
+            },
+            "vegan": false,
+            "vegetarian": false,
+            "productTypeDesc": "Bottle",
+            "fairtrade": false,
+            "organic": false,
+            "origin": "New Zealand",
+            "region": "Waipara",
+            "producer": {
+                "firstName": "Dom",
+                "lastName": "Clement"
+            },
+            "wineGrape": "Pinot grigio | Pinot gris",
+            "alcoholStrength": "13.50",
+            "tastingNotes": "This is lovely because it carries both a lightness and fruit structure. Together they come to bring drinkability to the wine. Plenty of stonefruit characters but a lift of citrus helps to keep focus and a refreshing nature to the wine.",
+            "status": "A",
+            "type": "red",
+            "lowStock": false,
+            "price": "£12.99",
+            "productQuantity": 1,
+            "markedOutOfStock": false,
+            "_links": {
+                "self": {
+                    "href": "/v1/products/22158"
+                }
+            }
+        },
+        {
+            "id": 21224,
+            "productName": "Rod McKenzie Hawke's Bay Merlot Cabernet Franc 2015",
+            "urlString": "rod-mckenzie-hawkes-bay-merlot-cabernet-franc-2015",
+            "vintage": "2015",
+            "averageRating": 4.44,
+            "productFamily": {
+                "allRatings": 1194
+            },
+            "vegan": true,
+            "vegetarian": true,
+            "productTypeDesc": "Bottle",
+            "fairtrade": false,
+            "organic": false,
+            "origin": "New Zealand",
+            "region": "Hawkes Bay",
+            "producer": {
+                "firstName": "Rod",
+                "lastName": "McKenzie"
+            },
+            "wineGrape": "Merlot Blend",
+            "alcoholStrength": "14.00",
+            "tastingNotes": "Vivid fruit aromas of red plum, and blackcurrant fuse with violet like characters and oak derived sandalwood like spice.  On the palate graphite like fruit tannins meld seamlessly with oak tannin and an intense core of fruit for a flavoursome and texturally enticing experience.",
+            "status": "A",
+            "type": "red",
+            "lowStock": false,
+            "price": "£12.99",
+            "productQuantity": 1,
+            "markedOutOfStock": false,
+            "_links": {
+                "self": {
+                    "href": "/v1/products/21224"
+                }
+            }
+        },
+        {
+            "id": 22050,
+            "productName": "Carlos Fernandez Campo de Borja 2017",
+            "urlString": "carlos-fernandez-campo-de-borja-2017",
+            "vintage": "2017",
+            "averageRating": 4.49,
+            "productFamily": {
+                "allRatings": 16584
+            },
+            "vegan": false,
+            "vegetarian": false,
+            "productTypeDesc": "Bottle",
+            "fairtrade": true,
+            "organic": false,
+            "origin": "Spain",
+            "region": "Aragon",
+            "producer": {
+                "firstName": "Carlos",
+                "lastName": "Fernandez"
+            },
+            "wineGrape": "Grenache",
+            "alcoholStrength": "14.00",
+            "tastingNotes": "Medium high red ruby colour.\r\nFruity and intense aromes, strawberries, red fruits,...\r\nSmooth and easy drinking mouthfeeling, juicy.",
+            "status": "A",
+            "type": "red",
+            "lowStock": false,
+            "price": "£12.99",
+            "productQuantity": 1,
+            "markedOutOfStock": false,
+            "_links": {
+                "self": {
+                    "href": "/v1/products/22050"
+                }
+            }
+        },
+        {
+            "id": 22589,
+            "productName": "Chastain Private Collection Cabernet Sauvignon 2017",
+            "urlString": "chastain-private-collection-cabernet-sauvignon-2017",
+            "vintage": "2017",
+            "averageRating": 4.56,
+            "productFamily": {
+                "allRatings": 39770
+            },
+            "vegan": false,
+            "vegetarian": false,
+            "productTypeDesc": "Bottle",
+            "fairtrade": false,
+            "organic": false,
+            "origin": "Chile",
+            "region": "Central Valley ",
+            "producer": {
+                "firstName": "Jean Pascal",
+                "lastName": "Chastain"
+            },
+            "wineGrape": "Cabernet Sauvignon",
+            "alcoholStrength": "13.50",
+            "tastingNotes": "Fresh berries, cherries black pepper and soft spices with floral and earthy tones.  The mouth is deep and round in the same time, more structured than powerful. The small and fine tannins are yet integrated, building a precise architecture, and are still present in a long finish made of spicy berries.",
+            "status": "A",
+            "type": "red",
+            "lowStock": false,
+            "price": "£12.99",
+            "productQuantity": 1,
+            "markedOutOfStock": false,
+            "_links": {
+                "self": {
+                    "href": "/v1/products/22589"
+                }
+            }
+        },
+        {
+            "id": 21972,
+            "productName": "Sottovento Montepulciano d'Abruzzo DOC 2017",
+            "urlString": "sottovento-montepulciano-d-abruzzo-doc-2017",
+            "vintage": "2017",
+            "averageRating": 4.68,
+            "productFamily": {
+                "allRatings": 3288
+            },
+            "vegan": false,
+            "vegetarian": false,
+            "productTypeDesc": "Bottle",
+            "fairtrade": false,
+            "organic": true,
+            "origin": "Italy",
+            "region": "Abruzzo",
+            "producer": {
+                "firstName": "Riccardo",
+                "lastName": "Toscani"
+            },
+            "wineGrape": "Montepulciano",
+            "alcoholStrength": "13.50",
+            "tastingNotes": "Lively deep red, with a violet rim, fills the nose with small dark and red berries, as well as intense flowers, like violets. It's taste is mouth filling, slightly astringent like dark berries sometimes are, and its minerality (saltiness) is clearly perceivable and long lasting. It's round and gentle side stays wit you for a very long time after last sip, like a cozy evening with good friends talking about nice stuff: the good feeling stays with you for hours!",
+            "status": "A",
+            "type": "red",
+            "lowStock": false,
+            "price": "£12.99",
+            "productQuantity": 1,
+            "markedOutOfStock": false,
+            "_links": {
+                "self": {
+                    "href": "/v1/products/21972"
+                }
+            }
+        },
+        {
+            "id": 21902,
+            "productName": "Matt Ferrari Lodi Albariño 2017",
+            "urlString": "matt-ferrari-lodi-albarino-2017",
+            "vintage": "2017",
+            "averageRating": 4.16,
+            "productFamily": {
+                "allRatings": 100
+            },
+            "vegan": false,
+            "vegetarian": false,
+            "productTypeDesc": "Bottle",
+            "fairtrade": false,
+            "organic": false,
+            "origin": "USA",
+            "region": "California",
+            "producer": {
+                "firstName": "Matt",
+                "lastName": "Ferrari"
+            },
+            "wineGrape": "Albarino",
+            "alcoholStrength": "11.50",
+            "tastingNotes": "Wonderful citrus notes with components of crushed stone and bright apple. Beautiful depth and texture at 12.0% alcohol.\r\n\r\nA few notes on Albariño from Wine Folly:\r\n\r\n\"Albariño is a wine that deserves extended sniffing in your glass. It has a dramatic aromatic intensity as a result of the higher levels of two aromatic compound groups called terpenes and thiols. Expect aromas of lemons, limes, pear, grapefruit, honeysuckle, nectarine, and occasionally orange zest and beeswax, supported by subtle smells of freshly wetted granite and Thai basil when sniffing your glass. When you taste Albariño, youll instantly delight in its mouth-watering acidity, somewhat weighty mid-palate, saltiness, and long tingly finish that often has a subtle bitter note (almost like grapefruit pith).\"",
+            "status": "A",
+            "type": "red",
+            "lowStock": true,
+            "productQuantity": 1,
+            "markedOutOfStock": false,
+            "_links": {
+                "self": {
+                    "href": "/v1/products/21902"
+                }
+            }
+        }
+    ]
 }
