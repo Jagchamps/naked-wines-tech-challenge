@@ -17,7 +17,7 @@ const theme = createMuiTheme({
 
 const LOCAL_WINE_DATA_URL = 'http://localhost:3001/wines';
 
-const WINE_DATA_URL = 'http://naked-wines-tech-challenge-data.s3.eu-west-1.amazonaws.com/wine-data.json';
+const WINE_DATA_URL = 'https://naked-wines-tech-challenge-data.s3.eu-west-1.amazonaws.com/wine-data.json';
 
 const CardList = (props) => (
   <section className="products">
