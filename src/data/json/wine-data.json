@@ -1,5 +1,5 @@
 {
-    "wine": [
+    "wines": [
         {
             "id": 22502,
             "productName": "Camille Cayran Le Chene Noir 2017",
@@ -18,31 +18,27 @@
             "region": "Rhone",
             "producer": {
                 "firstName": "Denis",
-                "lastName": "Crespo"
+                "lastName": "Heno"
             },
             "wineGrape": "Grenache Blend",
             "alcoholStrength": "14.50",
-            "grapeDescription": "",
             "tastingNotes": "Dark ruby in color, with a dark purple rim that shows its youth. A nose of pronounced fresh red fruits (strawberriers, rapsberries, red-currants) and bright perfumeof black cherry. When swirled, jammy notes develop.\r\nConcentrated, juicy and fresh succulent tanins. Keypoint ; made upon totally ripe, handpicked and selected fruit.\r\n",
             "status": "A",
             "type": "red",
             "lowStock": false,
-            "grape": [],
+            "price": "£12.99",
             "productQuantity": 1,
             "markedOutOfStock": false,
             "_links": {
                 "self": {
                     "href": "/v1/products/22502"
-                },
-                "products_prices": {
-                    "href": "/v2/products/22502/prices-current"
                 }
             }
         },
         {
             "id": 21729,
-            "productName": "Villebois Distinction Sauvignon Blanc 2017",
-            "urlString": "villebois-distinction-sauvignon-blanc-2017",
+            "productName": "Van Dijk Distinction Sauvignon Blanc 2017",
+            "urlString": "van-dijk-distinction-sauvignon-blanc-2017",
             "vintage": "2017",
             "averageRating": 4.61,
             "productFamily": {
@@ -57,31 +53,27 @@
             "region": "Loire Valley",
             "producer": {
                 "firstName": "Joost & Miguela",
-                "lastName": "de Villebois"
+                "lastName": "Van Dijk"
             },
             "wineGrape": "Sauvignon blanc",
             "alcoholStrength": "12.50",
-            "grapeDescription": "",
             "tastingNotes": "/",
             "status": "A",
             "type": "white",
             "lowStock": false,
-            "grape": [],
+            "price": "£12.99",
             "productQuantity": 1,
             "markedOutOfStock": true,
             "_links": {
                 "self": {
                     "href": "/v1/products/21729"
-                },
-                "products_prices": {
-                    "href": "/v2/products/21729/prices-current"
                 }
             }
         },
         {
             "id": 1979,
-            "productName": "Ken's Test Product",
-            "urlString": "ken's-test-product",
+            "productName": "Henry's Sparkling Wine",
+            "urlString": "henrys-sparkling-wine",
             "vintage": "2011",
             "averageRating": 0.0,
             "productFamily": {
@@ -95,25 +87,21 @@
             "origin": "UK",
             "region": "Bedfordshire",
             "producer": {
-                "firstName": "bob",
-                "lastName": "thebuilder"
+                "firstName": "Henry",
+                "lastName": "Cavill"
             },
             "wineGrape": "Other White Grapes",
             "alcoholStrength": "12.00",
-            "grapeDescription": "",
             "tastingNotes": "",
             "status": "A",
             "type": "sparkling",
             "lowStock": false,
-            "grape": [],
+            "price": "£12.99",
             "productQuantity": 1,
             "markedOutOfStock": false,
             "_links": {
                 "self": {
                     "href": "/v1/products/1979"
-                },
-                "products_prices": {
-                    "href": "/v2/products/1979/prices-current"
                 }
             }
         },
@@ -135,24 +123,20 @@
             "region": "Rhone",
             "producer": {
                 "firstName": "Pierre",
-                "lastName": "Latard"
+                "lastName": "Bisset"
             },
             "wineGrape": "Grenache Blend",
             "alcoholStrength": "14.00",
-            "grapeDescription": "",
             "tastingNotes": "A bright dark wine shot through with highlights. The noticeable red fruit in the nose is accompanied by aromas of cinnamon and spice. The mouth is full of jammy red fruit (strawberry), rounded and well-balanced and finishes on notes of spice (vanilla, pepper).\r\nThe youthful tannins mean it will last quite a while.",
             "status": "A",
             "type": "red",
             "lowStock": false,
-            "grape": [],
+            "price": "£12.99",
             "productQuantity": 1,
             "markedOutOfStock": false,
             "_links": {
                 "self": {
                     "href": "/v1/products/21123"
-                },
-                "products_prices": {
-                    "href": "/v2/products/21123/prices-current"
                 }
             }
         },
@@ -174,24 +158,20 @@
             "region": "Rhone",
             "producer": {
                 "firstName": "Pierre",
-                "lastName": "Latard"
+                "lastName": "Bisset"
             },
             "wineGrape": "Grenache Blend",
             "alcoholStrength": "14.00",
-            "grapeDescription": "",
             "tastingNotes": "A bright dark wine shot through with highlights. The noticeable red fruit in the nose is accompanied by aromas of cinnamon and spice. The mouth is full of jammy red fruit (strawberry), rounded and well-balanced and finishes on notes of spice (vanilla, pepper). The youthful tannins mean it will last quite a while.",
             "status": "A",
             "type": "red",
             "lowStock": false,
-            "grape": [],
+            "price": "£12.99",
             "productQuantity": 1,
             "markedOutOfStock": false,
             "_links": {
                 "self": {
                     "href": "/v1/products/22235"
-                },
-                "products_prices": {
-                    "href": "/v2/products/22235/prices-current"
                 }
             }
         },
@@ -213,31 +193,27 @@
             "region": "Rhone",
             "producer": {
                 "firstName": "Frederic",
-                "lastName": "Maillet"
+                "lastName": "Chevrolet"
             },
             "wineGrape": "Grenache Blend",
             "alcoholStrength": "14.50",
-            "grapeDescription": "",
             "tastingNotes": "Solid, with a bodied and fresh style, as well as floral and darker berry fruits. Fine, tight tannin and good length.",
             "status": "A",
             "type": "white",
             "lowStock": false,
-            "grape": [],
+            "price": "£12.99",
             "productQuantity": 1,
             "markedOutOfStock": false,
             "_links": {
                 "self": {
                     "href": "/v1/products/22640"
-                },
-                "products_prices": {
-                    "href": "/v2/products/22640/prices-current"
                 }
             }
         },
         {
             "id": 22326,
-            "productName": "Carmen Stevens Angels Selection Chenin Blanc 2018",
-            "urlString": "carmen-stevens-angels-selection-chenin-blanc-2018",
+            "productName": "Carmen Jones Angels Selection Chenin Blanc 2018",
+            "urlString": "carmen-jones-angels-selection-chenin-blanc-2018",
             "vintage": "2018",
             "averageRating": 4.39,
             "productFamily": {
@@ -252,31 +228,26 @@
             "region": "Western Cape",
             "producer": {
                 "firstName": "Carmen",
-                "lastName": "Stevens"
+                "lastName": "Jones"
             },
             "wineGrape": "Chenin blanc",
             "alcoholStrength": "12.50",
-            "grapeDescription": "",
             "tastingNotes": "This is a clean refreshing unoaked style of Chenin Blanc. The lightness of colour is indicative of an early picking. A lime fresh nuances greets you, this flows to baked apple and pear expression. Palate entrance is a mixture of lime and salt/ minerality flavours followed by the baked fruit that fills the palate.  The weight of this wines makes it inviting and very flowy on palate. The length of the wine is enhanced by the salty impression that the wine leaves on the palate. A beautiful wine with lots of finesse. A well balanced wine showing all the attributes of a well-made Chenin Blanc. ",
             "status": "A",
             "type": "white",
             "lowStock": true,
-            "grape": [],
             "productQuantity": 1,
             "markedOutOfStock": false,
             "_links": {
                 "self": {
                     "href": "/v1/products/22326"
-                },
-                "products_prices": {
-                    "href": "/v2/products/22326/prices-current"
                 }
             }
         },
         {
             "id": 21742,
-            "productName": "Jen Pfeiffer The Rebel Shiraz 2017",
-            "urlString": "jen-pfeiffer-the-rebel-shiraz-2017",
+            "productName": "Jen D'Angelo The Rebel Shiraz 2017",
+            "urlString": "jen-d-angelo-the-rebel-shiraz-2017",
             "vintage": "2017",
             "averageRating": 4.63,
             "productFamily": {
@@ -291,31 +262,27 @@
             "region": "South Eastern Australia",
             "producer": {
                 "firstName": "Jen",
-                "lastName": "Pfeiffer"
+                "lastName": "D'Angelo"
             },
             "wineGrape": "Syrah | Shiraz",
             "alcoholStrength": "14.00",
-            "grapeDescription": "",
             "tastingNotes": "My Rebel Shiraz has a lovely purple red colour.  \r\nThe nose exhibits lovely red berry and plummy fruit, with lovely spicy overtones.  \r\nThe palate is simply a mouthful of flavour!!!  Ripe and generous berry fruit fill the mid-palate, with a lovely savoury, spicy tannin finish.  This wine is super more-ish!!!  \r\n",
             "status": "A",
             "type": "red",
             "lowStock": false,
-            "grape": [],
+            "price": "£12.99",
             "productQuantity": 1,
             "markedOutOfStock": false,
             "_links": {
                 "self": {
                     "href": "/v1/products/21742"
-                },
-                "products_prices": {
-                    "href": "/v2/products/21742/prices-current"
                 }
             }
         },
         {
             "id": 21484,
-            "productName": "Marcelo Bocardo Gran Malbec 2017",
-            "urlString": "marcelo-bocardo-gran-malbec-2017",
+            "productName": "Marcelo Romano Gran Malbec 2017",
+            "urlString": "marcelo-romano-gran-malbec-2017",
             "vintage": "2017",
             "averageRating": 4.69,
             "productFamily": {
@@ -330,31 +297,27 @@
             "region": "Mendoza",
             "producer": {
                 "firstName": "Marcelo",
-                "lastName": "Bocardo"
+                "lastName": "Romano"
             },
             "wineGrape": "Malbec",
             "alcoholStrength": "13.50",
-            "grapeDescription": "",
             "tastingNotes": "Bright red color with purple hues. Enticing aromas of red fruit, cherries and plum. Medium bodied with a velvety texture and a long, persistent finish, revealing its full potential. Ideal to pair with a Juicy Ribeye or any kind of beef. \r\n",
             "status": "A",
             "type": "red",
             "lowStock": false,
-            "grape": [],
+            "price": "£12.99",
             "productQuantity": 1,
             "markedOutOfStock": false,
             "_links": {
                 "self": {
                     "href": "/v1/products/21484"
-                },
-                "products_prices": {
-                    "href": "/v2/products/21484/prices-current"
                 }
             }
         },
         {
             "id": 22359,
-            "productName": "Carlos Rodriguez Aba Solleira Mencia 2017",
-            "urlString": "carlos-rodriguez-aba-solleira-mencia-2017",
+            "productName": "Carlos Fernandez Aba Solleira Mencia 2017",
+            "urlString": "carlos-fernandez-aba-solleira-mencia-2017",
             "vintage": "2017",
             "averageRating": 4.31,
             "productFamily": {
@@ -369,31 +332,27 @@
             "region": "Ribeira Sacra",
             "producer": {
                 "firstName": "Carlos",
-                "lastName": "Rodriguez"
+                "lastName": "Fernandez"
             },
             "wineGrape": "Mencia",
             "alcoholStrength": "12.50",
-            "grapeDescription": "",
             "tastingNotes": "",
             "status": "A",
             "type": "rose",
             "lowStock": false,
-            "grape": [],
+            "price": "£12.99",
             "productQuantity": 1,
             "markedOutOfStock": false,
             "_links": {
                 "self": {
                     "href": "/v1/products/22359"
-                },
-                "products_prices": {
-                    "href": "/v2/products/22359/prices-current"
                 }
             }
         },
         {
             "id": 21887,
-            "productName": "Adam Mason Muscat de Mason 2017",
-            "urlString": "adam-mason-muscat-de-frontignan-2017",
+            "productName": "Adam Stone Muscat de Stone 2017",
+            "urlString": "adam-stone-muscat-de-frontignan-2017",
             "vintage": "2017",
             "averageRating": 4.4,
             "productFamily": {
@@ -408,31 +367,26 @@
             "region": "Swartland",
             "producer": {
                 "firstName": "Adam",
-                "lastName": "Mason"
+                "lastName": "Stone"
             },
             "wineGrape": "Muscat",
             "alcoholStrength": "13.00",
-            "grapeDescription": "",
             "tastingNotes": "THis is a typical expression of Muscat. It has lovely ripe tropcial aromas of dried mango, and pineapple together with some delicate floral notes. The rich palate is viscous and retains a beautiful long finish.",
             "status": "A",
             "type": "rose",
             "lowStock": true,
-            "grape": [],
             "productQuantity": 1,
             "markedOutOfStock": false,
             "_links": {
                 "self": {
                     "href": "/v1/products/21887"
-                },
-                "products_prices": {
-                    "href": "/v2/products/21887/prices-current"
                 }
             }
         },
         {
             "id": 22158,
-            "productName": "Dom Maxwell Hillside Pinot Gris 2018",
-            "urlString": "dom-maxwell-hillside-pinot-gris-2018",
+            "productName": "Dom Clement Hillside Pinot Gris 2018",
+            "urlString": "dom-clement-hillside-pinot-gris-2018",
             "vintage": "2018",
             "averageRating": 4.73,
             "productFamily": {
@@ -447,31 +401,27 @@
             "region": "Waipara",
             "producer": {
                 "firstName": "Dom",
-                "lastName": "Maxwell"
+                "lastName": "Clement"
             },
             "wineGrape": "Pinot grigio | Pinot gris",
             "alcoholStrength": "13.50",
-            "grapeDescription": "",
             "tastingNotes": "This is lovely because it carries both a lightness and fruit structure. Together they come to bring drinkability to the wine. Plenty of stonefruit characters but a lift of citrus helps to keep focus and a refreshing nature to the wine.",
             "status": "A",
             "type": "red",
             "lowStock": false,
-            "grape": [],
+            "price": "£12.99",
             "productQuantity": 1,
             "markedOutOfStock": false,
             "_links": {
                 "self": {
                     "href": "/v1/products/22158"
-                },
-                "products_prices": {
-                    "href": "/v2/products/22158/prices-current"
                 }
             }
         },
         {
             "id": 21224,
-            "productName": "Rod Easthope Hawke's Bay Merlot Cabernet Franc 2015",
-            "urlString": "rod-easthope-hawkes-bay-merlot-cabernet-franc-2015",
+            "productName": "Rod McKenzie Hawke's Bay Merlot Cabernet Franc 2015",
+            "urlString": "rod-mckenzie-hawkes-bay-merlot-cabernet-franc-2015",
             "vintage": "2015",
             "averageRating": 4.44,
             "productFamily": {
@@ -486,31 +436,27 @@
             "region": "Hawkes Bay",
             "producer": {
                 "firstName": "Rod",
-                "lastName": "Easthope"
+                "lastName": "McKenzie"
             },
             "wineGrape": "Merlot Blend",
             "alcoholStrength": "14.00",
-            "grapeDescription": "",
             "tastingNotes": "Vivid fruit aromas of red plum, and blackcurrant fuse with violet like characters and oak derived sandalwood like spice.  On the palate graphite like fruit tannins meld seamlessly with oak tannin and an intense core of fruit for a flavoursome and texturally enticing experience.",
             "status": "A",
             "type": "red",
             "lowStock": false,
-            "grape": [],
+            "price": "£12.99",
             "productQuantity": 1,
             "markedOutOfStock": false,
             "_links": {
                 "self": {
                     "href": "/v1/products/21224"
-                },
-                "products_prices": {
-                    "href": "/v2/products/21224/prices-current"
                 }
             }
         },
         {
             "id": 22050,
-            "productName": "Carlos Rodriguez Campo de Borja 2017",
-            "urlString": "carlos-rodriguez-campo-de-borja-2017",
+            "productName": "Carlos Fernandez Campo de Borja 2017",
+            "urlString": "carlos-fernandez-campo-de-borja-2017",
             "vintage": "2017",
             "averageRating": 4.49,
             "productFamily": {
@@ -525,31 +471,27 @@
             "region": "Aragon",
             "producer": {
                 "firstName": "Carlos",
-                "lastName": "Rodriguez"
+                "lastName": "Fernandez"
             },
             "wineGrape": "Grenache",
             "alcoholStrength": "14.00",
-            "grapeDescription": "",
             "tastingNotes": "Medium high red ruby colour.\r\nFruity and intense aromes, strawberries, red fruits,...\r\nSmooth and easy drinking mouthfeeling, juicy.",
             "status": "A",
             "type": "red",
             "lowStock": false,
-            "grape": [],
+            "price": "£12.99",
             "productQuantity": 1,
             "markedOutOfStock": false,
             "_links": {
                 "self": {
                     "href": "/v1/products/22050"
-                },
-                "products_prices": {
-                    "href": "/v2/products/22050/prices-current"
                 }
             }
         },
         {
             "id": 22589,
-            "productName": "Lacaze Private Collection Cabernet Sauvignon 2017",
-            "urlString": "lacaze-private-collection-cabernet-sauvignon-2017",
+            "productName": "Chastain Private Collection Cabernet Sauvignon 2017",
+            "urlString": "chastain-private-collection-cabernet-sauvignon-2017",
             "vintage": "2017",
             "averageRating": 4.56,
             "productFamily": {
@@ -564,24 +506,20 @@
             "region": "Central Valley ",
             "producer": {
                 "firstName": "Jean Pascal",
-                "lastName": "Lacaze"
+                "lastName": "Chastain"
             },
             "wineGrape": "Cabernet Sauvignon",
             "alcoholStrength": "13.50",
-            "grapeDescription": "",
             "tastingNotes": "Fresh berries, cherries black pepper and soft spices with floral and earthy tones.  The mouth is deep and round in the same time, more structured than powerful. The small and fine tannins are yet integrated, building a precise architecture, and are still present in a long finish made of spicy berries.",
             "status": "A",
             "type": "red",
             "lowStock": false,
-            "grape": [],
+            "price": "£12.99",
             "productQuantity": 1,
             "markedOutOfStock": false,
             "_links": {
                 "self": {
                     "href": "/v1/products/22589"
-                },
-                "products_prices": {
-                    "href": "/v2/products/22589/prices-current"
                 }
             }
         },
@@ -603,31 +541,27 @@
             "region": "Abruzzo",
             "producer": {
                 "firstName": "Riccardo",
-                "lastName": "Iacobone"
+                "lastName": "Toscani"
             },
             "wineGrape": "Montepulciano",
             "alcoholStrength": "13.50",
-            "grapeDescription": "",
             "tastingNotes": "Lively deep red, with a violet rim, fills the nose with small dark and red berries, as well as intense flowers, like violets. It's taste is mouth filling, slightly astringent like dark berries sometimes are, and its minerality (saltiness) is clearly perceivable and long lasting. It's round and gentle side stays wit you for a very long time after last sip, like a cozy evening with good friends talking about nice stuff: the good feeling stays with you for hours!",
             "status": "A",
             "type": "red",
             "lowStock": false,
-            "grape": [],
+            "price": "£12.99",
             "productQuantity": 1,
             "markedOutOfStock": false,
             "_links": {
                 "self": {
                     "href": "/v1/products/21972"
-                },
-                "products_prices": {
-                    "href": "/v2/products/21972/prices-current"
                 }
             }
         },
         {
             "id": 21902,
-            "productName": "Matt Iaconis Lodi Albariño 2017",
-            "urlString": "matt-iaconis-lodi-albarino-2017",
+            "productName": "Matt Ferrari Lodi Albariño 2017",
+            "urlString": "matt-ferrari-lodi-albarino-2017",
             "vintage": "2017",
             "averageRating": 4.16,
             "productFamily": {
@@ -642,24 +576,19 @@
             "region": "California",
             "producer": {
                 "firstName": "Matt",
-                "lastName": "Iaconis"
+                "lastName": "Ferrari"
             },
             "wineGrape": "Albarino",
             "alcoholStrength": "11.50",
-            "grapeDescription": "",
             "tastingNotes": "Wonderful citrus notes with components of crushed stone and bright apple. Beautiful depth and texture at 12.0% alcohol.\r\n\r\nA few notes on Albariño from Wine Folly:\r\n\r\n\"Albariño is a wine that deserves extended sniffing in your glass. It has a dramatic aromatic intensity as a result of the higher levels of two aromatic compound groups called terpenes and thiols. Expect aromas of lemons, limes, pear, grapefruit, honeysuckle, nectarine, and occasionally orange zest and beeswax, supported by subtle smells of freshly wetted granite and Thai basil when sniffing your glass. When you taste Albariño, youll instantly delight in its mouth-watering acidity, somewhat weighty mid-palate, saltiness, and long tingly finish that often has a subtle bitter note (almost like grapefruit pith).\"",
             "status": "A",
             "type": "red",
             "lowStock": true,
-            "grape": [],
             "productQuantity": 1,
             "markedOutOfStock": false,
             "_links": {
                 "self": {
                     "href": "/v1/products/21902"
-                },
-                "products_prices": {
-                    "href": "/v2/products/21902/prices-current"
                 }
             }
         }
