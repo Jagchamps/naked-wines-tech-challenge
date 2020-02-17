@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "df6bd9f7c0fd4d5f8ca84cb12cdd6557",
+    "revision": "00f137e4bc2d9e2b954ad613140e497c",
     "url": "/naked-wines-tech-challenge/index.html"
   },
   {
-    "revision": "e9e38271d0a364da587c",
+    "revision": "5be8641fc4610c479058",
     "url": "/naked-wines-tech-challenge/static/css/main.76eef140.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/naked-wines-tech-challenge/static/js/2.71df8263.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e9e38271d0a364da587c",
-    "url": "/naked-wines-tech-challenge/static/js/main.3e99bfd4.chunk.js"
+    "revision": "5be8641fc4610c479058",
+    "url": "/naked-wines-tech-challenge/static/js/main.2a024309.chunk.js"
   },
   {
     "revision": "2b3705e888a510a00a44",
