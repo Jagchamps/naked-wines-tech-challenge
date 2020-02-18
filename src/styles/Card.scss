@@ -15,60 +15,59 @@
     max-width: 33.33%;
   }
 
-  @media (min-width: $bp-large) and (orientation: portrait){
+  @media (min-width: $bp-large) and (orientation: portrait) {
     max-width: 25%;
   }
 
-  @media (min-width: $bp-medium) and (orientation: landscape){
+  @media (min-width: $bp-medium) and (orientation: landscape) {
     max-width: 25%;
   }
 
-  margin: 10px;
-
+  align-content: flex-start;
+  align-items: stretch;
+  border-radius: 5%;
+  box-shadow: 2px 4px 5px 0 grey;
   display: flex;
   flex-flow: column wrap;
-  align-items: stretch;
-  align-content: flex-start;
-  border-radius: 5%;
-  box-shadow: 2px 4px 5px 0px grey;
+  margin: 10px;
 }
 
 .product-image-container {
-  position: relative;
   min-height: 15em;
+  position: relative;
 }
 
 .product-image {
-  min-height: 15em;
-  max-height: 20em;
-  background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
-
-  margin-right: auto;
-  margin-left: auto;
-  width: 100%;
-  border-top-right-radius: 5%;
+  background-size: cover;
   border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  max-height: 20em;
+  min-height: 15em;
+  width: 100%;
 }
 
 .product-label {
+  left: 15px;
   position: absolute;
   top: 15px;
-  left: 15px;
 }
 
 .product-rating {
-  position: absolute;
   bottom: 15px;
   left: 15px;
+  position: absolute;
 }
 
 .product-favourite {
-  position: absolute;
   bottom: 15px;
-  right: 15px;
+  color: white;
   opacity: 0;
+  position: absolute;
+  right: 15px;
   transition: .5s ease;
 }
 
@@ -77,17 +76,23 @@
 }
 
 .product-favourite:hover {
-  fill: 1;
+  color: black;
 }
 
 .badge {
-  color: white;
   border-radius: 7%;
+  color: white;
 }
 
 .badge-red {
   background-color: #df171e;
   padding: 5px;
+}
+
+.product-name {
+  margin-bottom: auto;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .product-info {
@@ -96,27 +101,19 @@
   padding: 10px;
 }
 
-// .product-description p {
-//   @media (max-width: $bp-medium) {
-//     display: none;
-//   }
-
-//   flex: 1 0 auto;
-// }
-
 .product-style {
-  display: flex;
   align-items: center;
+  display: flex;
 }
 
 .product-origin {
-  display: flex;
   align-items: center;
+  display: flex;
 }
 
 .product-abv {
-  display: flex;
   align-items: center;
+  display: flex;
 }
 
 .style-icon {
@@ -124,7 +121,6 @@
 }
 
 .product-price {
-  margin-top: auto;
   border-top: 1px solid;
   display: flex;
   flex-direction: column;
@@ -132,8 +128,13 @@
 }
 
 .product-form {
-  display: flex;
   align-items: stretch;
+  display: flex;
+  text-align: center;
+}
+
+.oos-btn {
+  text-align: center;
 }
 
 .product-quantity {

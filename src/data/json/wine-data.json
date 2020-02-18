@@ -75,7 +75,7 @@
             "productName": "Henry's Sparkling Wine",
             "urlString": "henrys-sparkling-wine",
             "vintage": "2011",
-            "averageRating": 0.0,
+            "averageRating": 1.65,
             "productFamily": {
                 "allRatings": 0
             },
@@ -249,7 +249,7 @@
             "productName": "Jen D'Angelo The Rebel Shiraz 2017",
             "urlString": "jen-d-angelo-the-rebel-shiraz-2017",
             "vintage": "2017",
-            "averageRating": 4.63,
+            "averageRating": 0.0,
             "productFamily": {
                 "allRatings": 10939
             },
@@ -272,7 +272,7 @@
             "lowStock": false,
             "price": "£12.99",
             "productQuantity": 1,
-            "markedOutOfStock": false,
+            "markedOutOfStock": true,
             "_links": {
                 "self": {
                     "href": "/v1/products/21742"
@@ -481,7 +481,7 @@
             "lowStock": false,
             "price": "£12.99",
             "productQuantity": 1,
-            "markedOutOfStock": false,
+            "markedOutOfStock": true,
             "_links": {
                 "self": {
                     "href": "/v1/products/22050"
@@ -493,7 +493,7 @@
             "productName": "Chastain Private Collection Cabernet Sauvignon 2017",
             "urlString": "chastain-private-collection-cabernet-sauvignon-2017",
             "vintage": "2017",
-            "averageRating": 4.56,
+            "averageRating": 3.22,
             "productFamily": {
                 "allRatings": 39770
             },
@@ -528,7 +528,7 @@
             "productName": "Sottovento Montepulciano d'Abruzzo DOC 2017",
             "urlString": "sottovento-montepulciano-d-abruzzo-doc-2017",
             "vintage": "2017",
-            "averageRating": 4.68,
+            "averageRating": 1.13,
             "productFamily": {
                 "allRatings": 3288
             },

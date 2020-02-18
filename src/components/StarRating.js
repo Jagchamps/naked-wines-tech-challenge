@@ -1,35 +1,24 @@
-import React, { useEffect, useState, useRef } from 'react';
-
-//import './star-rating.css';
+import React, { useEffect, useRef } from "react";
 
 function StarRating(props) {
   const rating = useRef("rating");
-  const averageRating = Math.round(props.averageRating);
 
   useEffect(() => {
     const setRating = ev => {
-      const stars = rating.current.getElementsByClassName('star');
+      const stars = rating.current.getElementsByClassName("star");
       Array.from(stars).forEach(star => {
         star.style.color =
-          averageRating >= star.dataset.value ? '#df171e' : 'gray';
+          props.averageRating >= star.dataset.value ? "#df171e" : "black";
       });
     };
     setRating();
   }, []);
 
   return (
-    <div
-      className="rating"
-      ref={rating}
-      data-rating={averageRating}
-    >
+    <div className="rating" ref={rating} data-rating={props.averageRating}>
       {[...Array(+props.numberOfStars).keys()].map(n => {
         return (
-          <span
-            className="star"
-            key={n+1}
-            data-value={n+1}
-          >
+          <span className="star" key={n + 1} data-value={n + 1}>
             &#9733;
           </span>
         );
