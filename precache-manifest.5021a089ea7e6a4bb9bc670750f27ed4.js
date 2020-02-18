@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "00f137e4bc2d9e2b954ad613140e497c",
+    "revision": "aa427ccf9ed39d9e53012c412539fc4e",
     "url": "/naked-wines-tech-challenge/index.html"
   },
   {
-    "revision": "5be8641fc4610c479058",
-    "url": "/naked-wines-tech-challenge/static/css/main.76eef140.chunk.css"
+    "revision": "f0e8ba2b0789c2fb6860",
+    "url": "/naked-wines-tech-challenge/static/css/main.1ec026ef.chunk.css"
   },
   {
-    "revision": "93b059c82025cb7f81a2",
-    "url": "/naked-wines-tech-challenge/static/js/2.71df8263.chunk.js"
+    "revision": "1fc7f41af7e60bec5051",
+    "url": "/naked-wines-tech-challenge/static/js/2.240cc45e.chunk.js"
   },
   {
-    "revision": "3adc01bea76e7956dc3633ee898f6936",
-    "url": "/naked-wines-tech-challenge/static/js/2.71df8263.chunk.js.LICENSE.txt"
+    "revision": "6f5f1c4a5f7f6e382b8aeca1b4ac8d96",
+    "url": "/naked-wines-tech-challenge/static/js/2.240cc45e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5be8641fc4610c479058",
-    "url": "/naked-wines-tech-challenge/static/js/main.2a024309.chunk.js"
+    "revision": "f0e8ba2b0789c2fb6860",
+    "url": "/naked-wines-tech-challenge/static/js/main.81766ee0.chunk.js"
   },
   {
     "revision": "2b3705e888a510a00a44",

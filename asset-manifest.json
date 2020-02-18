@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/naked-wines-tech-challenge/static/css/main.76eef140.chunk.css",
-    "main.js": "/naked-wines-tech-challenge/static/js/main.2a024309.chunk.js",
-    "main.js.map": "/naked-wines-tech-challenge/static/js/main.2a024309.chunk.js.map",
+    "main.css": "/naked-wines-tech-challenge/static/css/main.1ec026ef.chunk.css",
+    "main.js": "/naked-wines-tech-challenge/static/js/main.81766ee0.chunk.js",
+    "main.js.map": "/naked-wines-tech-challenge/static/js/main.81766ee0.chunk.js.map",
     "runtime-main.js": "/naked-wines-tech-challenge/static/js/runtime-main.5c3819ba.js",
     "runtime-main.js.map": "/naked-wines-tech-challenge/static/js/runtime-main.5c3819ba.js.map",
-    "static/js/2.71df8263.chunk.js": "/naked-wines-tech-challenge/static/js/2.71df8263.chunk.js",
-    "static/js/2.71df8263.chunk.js.map": "/naked-wines-tech-challenge/static/js/2.71df8263.chunk.js.map",
+    "static/js/2.240cc45e.chunk.js": "/naked-wines-tech-challenge/static/js/2.240cc45e.chunk.js",
+    "static/js/2.240cc45e.chunk.js.map": "/naked-wines-tech-challenge/static/js/2.240cc45e.chunk.js.map",
     "index.html": "/naked-wines-tech-challenge/index.html",
-    "precache-manifest.6fd8af5045f9907efa25a5c37ff98fcb.js": "/naked-wines-tech-challenge/precache-manifest.6fd8af5045f9907efa25a5c37ff98fcb.js",
+    "precache-manifest.5021a089ea7e6a4bb9bc670750f27ed4.js": "/naked-wines-tech-challenge/precache-manifest.5021a089ea7e6a4bb9bc670750f27ed4.js",
     "service-worker.js": "/naked-wines-tech-challenge/service-worker.js",
-    "static/css/main.76eef140.chunk.css.map": "/naked-wines-tech-challenge/static/css/main.76eef140.chunk.css.map",
-    "static/js/2.71df8263.chunk.js.LICENSE.txt": "/naked-wines-tech-challenge/static/js/2.71df8263.chunk.js.LICENSE.txt",
+    "static/css/main.1ec026ef.chunk.css.map": "/naked-wines-tech-challenge/static/css/main.1ec026ef.chunk.css.map",
+    "static/js/2.240cc45e.chunk.js.LICENSE.txt": "/naked-wines-tech-challenge/static/js/2.240cc45e.chunk.js.LICENSE.txt",
     "static/media/red-wine-placeholder.jpg": "/naked-wines-tech-challenge/static/media/red-wine-placeholder.8d85c2f9.jpg",
     "static/media/rose-wine-placeholder-2.jpg": "/naked-wines-tech-challenge/static/media/rose-wine-placeholder-2.4d07052b.jpg",
     "static/media/sparkling-wine-placeholder-2.jpeg": "/naked-wines-tech-challenge/static/media/sparkling-wine-placeholder-2.db8c67bb.jpeg",
@@ -19,8 +19,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.5c3819ba.js",
-    "static/js/2.71df8263.chunk.js",
-    "static/css/main.76eef140.chunk.css",
-    "static/js/main.2a024309.chunk.js"
+    "static/js/2.240cc45e.chunk.js",
+    "static/css/main.1ec026ef.chunk.css",
+    "static/js/main.81766ee0.chunk.js"
   ]
 }

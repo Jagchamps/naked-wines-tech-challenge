@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/naked-wines-tech-challenge/precache-manifest.6fd8af5045f9907efa25a5c37ff98fcb.js"
+  "/naked-wines-tech-challenge/precache-manifest.5021a089ea7e6a4bb9bc670750f27ed4.js"
 );
 
 self.addEventListener('message', (event) => {
