@@ -1,132 +1,138 @@
-import React, { useEffect } from 'react';
-import { Button, TextField } from '@material-ui/core';
-import { useTheme } from '@material-ui/core/styles';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { 
-    faWineGlassAlt, 
-    faGlobeEurope, 
-    faHeart, 
-    faShoppingBasket,
-    faTint,
-} 
-    from '@fortawesome/free-solid-svg-icons';
-import { withStyles } from '@material-ui/core/styles';
-import StarRating from './StarRating.js';
-import '../styles/App.scss';
-import red from '../data/images/red-wine-placeholder.jpg';
-import white from '../data/images/white-wine-placeholder.jpg';
-import rose from '../data/images/rose-wine-placeholder-2.jpg';
-import sparkling from '../data/images/sparkling-wine-placeholder-2.jpeg';
+import React from "react";
+import { Button, TextField, Tooltip } from "@material-ui/core";
+import { useTheme } from "@material-ui/core/styles";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faWineGlassAlt,
+  faGlobeEurope,
+  faHeart,
+  faTint
+} from "@fortawesome/free-solid-svg-icons";
+import { withStyles } from "@material-ui/core/styles";
+import WineImage from "./WineImage.js";
+import StarRating from "./StarRating.js";
+import "../styles/App.scss";
 
-const SuccessBtn = withStyles({
-    root: {
-        height: "100%",
-        color: white,
-        backgroundColor: "#35b63e",
-        "&:hover": {
-            backgroundColor: "#008506",
-        },
-    },
-})(Button);
-
-const ErrorBtn = withStyles({
-    root: {
-        color: white,
-        backgroundColor: "#df171e",
-        "&:hover": {
-            backgroundColor: "#a40000",
-        },
-    },
-})(Button);
-
-function WineImage(props) {
-    const type = props.type;
-    switch (type) {
-        case "red": 
-            return <img className="product-image" src={red}></img>
-        case "white":
-            return <img className="product-image" src={white}></img>
-        case "sparkling":
-            return <img className="product-image" src={sparkling}></img>
-        case "rose":
-            return <img className="product-image" src={rose}></img>
+const ATBBtn = withStyles({
+  root: {
+    height: "100%",
+    color: "white",
+    backgroundColor: "#35b63e",
+    "&:hover": {
+      backgroundColor: "#008506"
     }
-}
+  }
+})(Button);
+
+const OOSBtn = withStyles({
+  root: {
+    height: "100%",
+    color: "white",
+    backgroundColor: "#df171e",
+    "&:hover": {
+      backgroundColor: "#a40000"
+    }
+  }
+})(Button);
 
 function Card(props) {
-    const product = props.product;
-    const theme = useTheme();
+  const product = props.product;
+  const averageRating = Math.round(product.averageRating);
+  const theme = useTheme();
 
-    return (
-        <div className="product-card">
-            <div className="product-image-container">
-                <WineImage type={product.type}/>
-                <div className="product-label">
-                    {product.lowStock &&
-                        <h6 className="badge badge-red">LOW STOCK</h6>
-                    }
-                </div>
-                <div className="product-rating">
-                    <StarRating 
-                        numberOfStars="5"
-                        averageRating={product.averageRating}/>
-                </div>
-                <FontAwesomeIcon 
-                    className="product-favourite"
-                    icon={faHeart}
-                    color="white" 
-                    size="lg"/>
-            </div>
-            <div className="product-info">
-                <div className="product-description">
-                    <h2>{product.productName}</h2>
-                    <h3>{product.producer.firstName} {product.producer.lastName}</h3>
-                    {/* <p>{product.tastingNotes}</p> */}
-                    <div className="product-style">
-                        <FontAwesomeIcon 
-                            className="style-icon" 
-                            icon={faWineGlassAlt} 
-                            fixedWidth
-                            size="sm"/>
-                        <span>{product.wineGrape}</span>
-                    </div>
-                    <div className="product-origin">
-                        <FontAwesomeIcon 
-                        className="style-icon" 
-                        icon={faGlobeEurope} 
-                        fixedWidth
-                        size="sm"/>
-                        <span>{product.origin}</span>
-                    </div>
-                    <div className="product-abv">
-                        <FontAwesomeIcon 
-                        className="style-icon" 
-                        icon={faTint} 
-                        fixedWidth
-                        size="sm"/>
-                        <span>{product.alcoholStrength}%</span>
-                    </div>
-                </div>
-            </div>
-            <div className="product-price">
-                <p>Market Price: {product.price}</p>
-                {product.markedOutOfStock &&
-                    <ErrorBtn variant="contained" color="primary">Out of stock</ErrorBtn>
-                }
-                {!product.markedOutOfStock && 
-                    <div className="product-form">
-                        <div className="product-quantity">
-                            <TextField  variant="outlined" />
-                        </div>
-                        <div className="atb-btn">
-                            <SuccessBtn startIcon={<FontAwesomeIcon icon={faShoppingBasket} size="sm"/>} variant="contained" color="primary"
-                            size="large">Buy Now</SuccessBtn>
-                        </div>
-                    </div>
-                }
-            </div>
+  return (
+    <div className="product-card">
+      <div className="product-image-container">
+        <WineImage type={product.type} />
+        <div className="product-label">
+          {product.lowStock && <h6 className="badge badge-red">LOW STOCK</h6>}
         </div>
-    );
+        <Tooltip title="Rating">
+          <div className="product-rating">
+            <StarRating numberOfStars="5" averageRating={averageRating} />
+          </div>
+        </Tooltip>
+        <Tooltip title="Favourite">
+          <div className="product-favourite">
+            <FontAwesomeIcon icon={faHeart} size="lg" onClick="" />
+          </div>
+        </Tooltip>
+      </div>
+      <div className="product-name">
+        <h2>{product.productName}</h2>
+      </div>
+      <div className="product-info">
+        <h3>
+          {product.producer.firstName} {product.producer.lastName}
+        </h3>
+        <div className="product-style">
+          <Tooltip title="Grape" placement="left">
+            <div>
+              <FontAwesomeIcon
+                className="style-icon"
+                icon={faWineGlassAlt}
+                fixedWidth
+                size="sm"
+              />
+            </div>
+          </Tooltip>
+          <span>{product.wineGrape}</span>
+        </div>
+        <div className="product-origin">
+          <Tooltip title="Origin" placement="left">
+            <div>
+              <FontAwesomeIcon
+                className="style-icon"
+                icon={faGlobeEurope}
+                fixedWidth
+                size="sm"
+              />
+            </div>
+          </Tooltip>
+          <span>{product.origin}</span>
+        </div>
+        <div className="product-abv">
+          <Tooltip title="ABV%" placement="left">
+            <div>
+              <FontAwesomeIcon
+                className="style-icon"
+                icon={faTint}
+                fixedWidth
+                size="sm"
+              />
+            </div>
+          </Tooltip>
+          <span>{product.alcoholStrength}%</span>
+        </div>
+      </div>
+      <div className="product-price">
+        <p>Market Price: {product.price}</p>
+        {product.markedOutOfStock && (
+          <div className="oos-btn">
+            <OOSBtn variant="contained" color="primary" size="large">
+              Out of stock
+            </OOSBtn>
+          </div>
+        )}
+        {!product.markedOutOfStock && (
+          <div className="product-form">
+            <div className="product-quantity">
+              <TextField
+                size="small"
+                variant="outlined"
+                defaultValue={product.productQuantity}
+              />
+            </div>
+            <div className="atb-btn">
+              <ATBBtn variant="contained" color="primary" size="large">
+                Add to Basket
+              </ATBBtn>
+            </div>
+          </div>
+        )}
+      </div>
+    </div>
+  );
 }
 
 export default Card;

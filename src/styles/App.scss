@@ -1,21 +1,10 @@
-@import "./Variables.scss";
-@import "./Navbar.scss";
-@import "./Body.scss";
-@import "./Card.scss";
+@import './Variables.scss';
+@import './Header.scss';
+@import './Card.scss';
 
 html {
   box-sizing: border-box;
   font-family: $roboto;
-}
-
-.App {
-  // @media screen and (max-width: $bp-small) {
-  //   height: 100%;
-  //   overflow: auto;
-  //   overflow-x: hidden;
-  // }
-  // padding: 1rem;
-  // box-sizing: border-box;
 }
 
 .main-section {
@@ -26,21 +15,28 @@ html {
     padding: 1rem;
   }
   @media screen and (min-width: $bp-xlarge) {
-    width: $bp-xlarge;
     margin-left: auto;
     margin-right: auto;
+    width: $bp-xlarge;
   }
 }
 
-.App-body {
+.app-body {
   height: 100%;
   width: 100%;
 }
 
+.loading-icon {
+  left: 50%;
+  position: fixed;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .products {
+  align-content: flex-start;
+  align-items: stretch;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  align-items: stretch;
-  align-content: flex-start;
 }
